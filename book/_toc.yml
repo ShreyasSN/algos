@@ -12,6 +12,26 @@ parts:
     - file: some_content/overview.md
       sections:
       - file: some_content/text_and_code.ipynb
+  - caption: Two Pointers
+    chapters:
+    - file: two_pointers/overview.md
+      sections:
+      - file: two_pointers/two_sum.md
+      - file: two_pointers/trapping_water.md
+      - file: two_pointers/binary_search.md
+      - file: two_pointers/cyclic_sort.md
+      - file: two_pointers/divide_and_conquer.md
+      - file: two_pointers/intersection.md
+      - file: two_pointers/median_finder.md
+      - file: two_pointers/meet_in_the_middle.md
+      - file: two_pointers/next_permuatation.md
+      - file: two_pointers/remove_duplicates.md
+      - file: two_pointers/reverse_or_swapping.md
+      - file: two_pointers/rotation.md
+      - file: two_pointers/sliding_window.md
+      - file: two_pointers/fast_and_slow.md
+      - file: two_pointers/string.md
+      - file: two_pointers/substring.md
   - caption: Exercises
     chapters:
     - file: exercises.md
