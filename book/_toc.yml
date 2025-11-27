@@ -5,7 +5,7 @@ root: intro.md
 
 parts:
   - caption: Part with some content # A title for the whole the subtree, e.g. shown above the subtree in ToCs, configuration part of sphinx-external-toc (https://sphinx-external-toc.readthedocs.io/en/latest/intro.html)
-    numbered: false                 # Default value (line can be removed), whether to number the chapters/sections in this part, configuration part of sphinx-external-toc (https://sphinx-external-toc.readthedocs.io/en/latest/intro.html)
+    numbered: true                 # Default value (line can be removed), whether to number the chapters/sections in this part, configuration part of sphinx-external-toc (https://sphinx-external-toc.readthedocs.io/en/latest/intro.html)
     style: numerical                # Default value (line can be removed), style of numbering for this part, configuration part of TeachBooks' version of sphinx-external-toc (https://github.com/TeachBooks/sphinx-external-toc?tab=readme-ov-file#toc-tree-options)
     restart_numbering: false        # Default value (line can be removed), whether to restart numbering for this part, configuration part of TeachBooks' version of sphinx-external-toc (https://github.com/TeachBooks/sphinx-external-toc?tab=readme-ov-file#toc-tree-options)
     chapters:
@@ -14,24 +14,40 @@ parts:
       - file: some_content/text_and_code.ipynb
   - caption: Two Pointers
     chapters:
-    - file: two_pointers/overview.md
+    - file: two_pointers/both_ends.md
       sections:
       - file: two_pointers/two_sum.md
       - file: two_pointers/trapping_water.md
-      - file: two_pointers/binary_search.md
-      - file: two_pointers/cyclic_sort.md
-      - file: two_pointers/divide_and_conquer.md
+      - file: two_pointers/next_permutation.md
+      - file: two_pointers/reverse_or_swapping.md
+      - file: two_pointers/others1.md
+    - file: two_pointers/slow_and_fast.md
+      sections:
+      - file: two_pointers/linked_list.md
+      - file: two_pointers/cyclic_detection.md
+      - file: two_pointers/rotation.md
+      - file: two_pointers/string.md
+      - file: two_pointers/remove_duplicates.md
+      - file: two_pointers/others2.md
+    - file: two_pointers/sliding_window.md
+      sections:
+      - file: two_pointers/fixed_size.md
+      - file: two_pointers/variable_size.md
+    - file: two_pointers/binary_search.md
+      sections:
+      - file: two_pointers/bs.md
+      - file: two_pointers/bs_on_ans.md
+    - file: two_pointers/from_beginning.md
+      sections:
+      - file: two_pointers/sorted_arrays.md
       - file: two_pointers/intersection.md
+      - file: two_pointers/substring.md
       - file: two_pointers/median_finder.md
       - file: two_pointers/meet_in_the_middle.md
-      - file: two_pointers/next_permuatation.md
-      - file: two_pointers/remove_duplicates.md
-      - file: two_pointers/reverse_or_swapping.md
-      - file: two_pointers/rotation.md
-      - file: two_pointers/sliding_window.md
-      - file: two_pointers/fast_and_slow.md
-      - file: two_pointers/string.md
-      - file: two_pointers/substring.md
+      - file: two_pointers/others3.md
+    - file: two_pointers/dnc.md
+      sections:
+      - file: two_pointers/divide_and_conquer.md
   - caption: Exercises
     chapters:
     - file: exercises.md
